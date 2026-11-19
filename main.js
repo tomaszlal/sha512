@@ -2,6 +2,12 @@ const passwordInput = document.getElementById('passwordInput');
 const resultBox = document.getElementById('resultBox');
 const bruteResultBox = document.getElementById('bruteResultBox');
 const passwordLength = document.getElementById('passwordLength');
+const useLower = document.getElementById('useLower');
+const useUpper = document.getElementById('useUpper');
+const useNumbers = document.getElementById('useNumbers');
+const useSpecial = document.getElementById('useSpecial');
+
+
 
 function hashPassword() {
     const haslo = passwordInput.value;
